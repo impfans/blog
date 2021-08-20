@@ -1,0 +1,35 @@
+{
+  "name": "gs-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "develop": "gatsby develop"
+  },
+  "dependencies": {
+    "antd": "^4.15.6",
+    "axios": "^0.21.1",
+    "babel-plugin-import": "^1.13.3",
+    "babel-plugin-styled-components": "^1.13.2",
+    "highlight.js": "^11.2.0",
+    "markdown-navbar": "^1.4.2",
+    "marked": "^3.0.0",
+    "moment": "^2.29.1",
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.37.5",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.17",
+    "autoprefixer": "^10.3.1",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.0.1",
+    "postcss": "^8.3.6",
+    "typescript": "4.3.5"
+  }
+}
