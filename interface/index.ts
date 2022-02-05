@@ -9,15 +9,15 @@ export interface IArticle {
     /**
      * 创建时间
      */
-    created_at?: string;
+    createdAt?: string;
     /**
      * 更新时间
      */
-    updated_at?: string;
+    updatedAt?: string;
     /**
      * 删除时间
      */
-    deleted_at?: string;
+    deletedAt?: string;
     /**
      * 标题
      */
@@ -43,7 +43,7 @@ export interface IArticle {
     /**
      * 标签
      */
-     category: ICategory
+     name: string;
 }
 /**
  * 返回结构

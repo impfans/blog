@@ -48,7 +48,7 @@ const TopBox = styled.div`
   }
 `
 const Top = (props: any) => {
-  const { title, created_at, updated_at, name, readed, img, count } = props.info
+  const { title, createdAt, updatedAt, name, readed, img, count } = props.info
   console.log('top---->',props)
   return (
     <>
@@ -56,8 +56,8 @@ const Top = (props: any) => {
         <div className='out'>
           <h3>{title}</h3>
           <div className="flex">
-            <i><ScheduleOutlined/> 发表于： {moment(created_at).format('YYYY-MM-DD HH:mm') }</i>
-            <i><SyncOutlined spin />更新于： {moment(updated_at).format('YYYY-MM-DD HH:mm') }</i>
+            <i><ScheduleOutlined/> 发表于： {moment(createdAt).format('YYYY-MM-DD HH:mm') }</i>
+            <i><SyncOutlined spin />更新于： {moment(updatedAt).format('YYYY-MM-DD HH:mm') }</i>
             <i><InboxOutlined/> 类别：{name}</i>
           </div>
           <div className="flex">
