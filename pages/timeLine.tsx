@@ -18,7 +18,7 @@ const TimeLine = (props: any) => {
                 <Main>
                     <Timeline mode="alternate" reverse>
                         {data.map((item, index) => (
-                            <Timeline.Item label={moment(item.updated_at).format('YYYY-MM-DD HH:mm') } key={index}>
+                            <Timeline.Item label={moment(item.createdAt).format('YYYY-MM-DD HH:mm') } key={index}>
                                 <Link
                                     href={"/detail/[detail]"}
                                     as={`/detail/${item.id}`}

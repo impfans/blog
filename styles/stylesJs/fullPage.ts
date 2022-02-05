@@ -12,7 +12,7 @@ const animation = keyframes`
 `;
 
 export const Content = styled.div`
-  background-image: url(${(props: any)=>{return `../../home${props.day}.jpg`}});
+  background-image: url(${(props: any)=>{return `../../home0.jpg`}});
   background-attachment: fixed;
   align-items: center;
   height: 100vh;
